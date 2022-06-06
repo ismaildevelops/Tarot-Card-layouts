@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+h2{
+  color: white;
+}
+h3{
+  color: white;
+}
+h5{
+  font-weight: bold;
+  color: white;
+}
+body {
+  background-image: url('ask.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+a{
+    display: inline-block;
+  width: 213px;
+  text-align: center;
+  border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 2%;
+
+
+
+
+}
+</style>
+
+
+  <title>The Bohemian Layout</title>
+
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript">
+  function must() {
+    console.log('Let us hope for best');
+    var q = document.getElementById('0').value;
+    var w = document.getElementById('1').value;
+    var e = document.getElementById('2').value;
+    var r = document.getElementById('3').value;
+    var t = document.getElementById('4').value;
+    var y = document.getElementById('5').value;
+    var u = document.getElementById('6').value;
+    var data = q + " " + w+ " " + e+ " " + r+ " " + t+ " " + y+ " " + u;
+    console.log(data);
+    eel.tarot7(data)().then((r) => {
+    document.getElementById("q").src = r[0];
+    document.getElementById("w").src = r[1];
+    document.getElementById("e").src = r[2];
+    document.getElementById("r").src = r[3];
+    document.getElementById("t").src = r[4];
+    document.getElementById("y").src = r[5];
+    document.getElementById("u").src = r[6];
+      });
+  }
+  function sexy() {
+    var q = document.getElementById('0').value;
+    var w = document.getElementById('1').value;
+    var e = document.getElementById('2').value;
+    var r = document.getElementById('3').value;
+    var t = document.getElementById('4').value;
+    var y = document.getElementById('5').value;
+    var u = document.getElementById('6').value;
+
+  }
+  
+  
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row"><div class="col-lg-12"><h1 align="center" style="color: white;font-size:60px;">The Bohemian Layout<h1>
+    </div>
+  </div>
+  <div class="row"><div class="col-lg-12"><h1 align="center" style="color: white;font-size:30px;">Enter 7 card numbers.All numbers in input fields must be unique.<h1><br>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-lg-12" align="center">
+        <form >
+        
+        <input type="number" id="0" min="0" max="22" required>
+        <input type="number" id="1" min="0" max="22" required>
+        <input type="number" id="2" min="0" max="22" required>
+        <input type="number" id="3" min="0" max="22" required>
+        <input type="number" id="4" min="0" max="22" required>
+        <input type="number" id="5" min="0" max="22" required>
+        <input type="number" id="6" min="0" max="22" required>
+  
+        <button type="submit" class="btn btn-primary">Check_Values</button>
+      </form>
+      <br><br>
+      </div>
+
+      </div>
+      <div class="row">
+          <div align="center" class="col-lg-12">
+      
+      <button type="submit" class="btn btn-primary" onclick="must();">Submit</button>
+      
+      <br><br><br><br>
+    </div>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="As" align="center">
+        <a href = "bohemian.html" target = "_self">Bohemian<br> Layout 7 cards.</a>
+          <a href="four_level_layout.html">4 cards layout<br>tarot</a>
+          <a href="index.html">12 card layout<br>tarot</a>
+             </div>
+        </div>
+      </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-12"  style="border-bottom: solid white;border-top: solid white;">
+        <div class="row">
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="q"><h3 align = "center">1</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="w"><h3 align = "center">2</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="e"><h3 align = "center">3</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="r"><h3 align = "center">4</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="t"><h3 align = "center">5</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="y"><h3 align = "center">6</h3></div>
+          <div class="col-lg-1"><img src="eye.png" class="img-fluid" id="u"><h3 align = "center">7</h3></div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 align="center">Scroll down for help</h3></div>
+      </div>
+    <div class="row">
+      <div class="col-lg-6" style="margin-top: 5%;"><h2 align="center">Cards positions and their<br> meanings.</h2></div>
+      <div class="col-lg-6" style="border-right: solid white;background-color: black;">
+        <h5>1). Home matters</h5>
+        <h5>2). Hopes/Fears</h5>
+        <h5>3). Relationships.</h5>
+        <h5>4). Acheivements hoped for.</h5>
+        <h5>5). Obstacles / unexpected help.</h5>
+        <h5>6). Immediate future / possibilities</h5>
+        <h5>7). Good Fortune </h5>
+
+      </div>
+      
+      
+        
+        
+      
+
+    </div>
+    </div>
+
+</body>
+</html>

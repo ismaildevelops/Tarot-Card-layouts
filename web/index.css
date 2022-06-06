@@ -1,0 +1,186 @@
+html,body{
+	color: black;
+	height: 100%;
+
+
+	
+}
+
+h2{
+	text-shadow:0.05em 0 black,
+    0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	color: white;
+}
+
+.scroll::-webkit-scrollbar {
+  height: 1px;
+  width: 10px;
+  color: white;
+
+}
+::-webkit-scrollbar-track {
+  background: black;
+  height: 1px;
+}
+ 
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: red;
+
+
+
+}
+::-webkit-scrollbar {
+    box-shadow: inset 0 0 10px 10px red;
+    border: solid 3px transparent;
+    padding: 0px 0px 0px 19px;
+}
+
+
+
+#As{
+	
+	animation: fadeIn ease 12s;
+}
+#vantaclouds{
+	width: 100%;
+	height: 100%;
+
+	
+} 
+
+
+h3{
+	text-shadow:0.05em 0 black,
+    0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	color: white;
+	color: white;
+	line-height: 2.5;
+	animation: fadeIn ease 10s;
+
+}
+
+
+h1{	
+	text-shadow:0.05em 0 black,
+    0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	color: white;
+	font-size: 60px;
+	color: white;
+	animation: fadeIn ease 6s;
+
+}
+
+@keyframes fadeIn {
+0% {opacity:0.0;}
+100% {opacity:1;}
+}
+h4{
+	text-shadow:0.05em 0 black,
+    0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	color: white;
+
+
+	animation: fadeIn ease 12s;
+
+}
+
+@keyframes fadeIn {
+0% {opacity:0.0;}
+100% {opacity:1;}
+}
+
+div.scroll { 
+				margin:auto;
+				margin-top: 3%;
+                padding-right: 40px;
+                background-color: transparent; 
+                width: 100%; 
+                height: 700px; 
+                overflow-x: hidden; 
+                overflow-y: auto; 
+            
+            } 
+
+a{
+	
+
+	
+	display: inline-block;
+	width: 213px;
+	text-align: center;
+	border: 1px solid white;
+  	color: white;
+  	cursor: pointer;
+  	margin: 4px 2px;
+  	padding: 15px 32px;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin-bottom: 2%;
+
+
+
+
+
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #C22F18;
+	
+	text-shadow: 0 0 3px white;
+
+}
+a:active{
+	text-decoration: none;
+	color: white;
+	background-color: #C22F45;
+	text-decoration: none;
+
+
+}
+.mega{
+	animation: fadeIn ease 12s;
+
+}
+p{
+	color: black
+	font-size: 120px,
+	text-shadow:0.05em 0 black,
+    0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+	color: white;
+	line-height: 1.8;
+	animation: fadeIn ease 10s;
+
+
+}
